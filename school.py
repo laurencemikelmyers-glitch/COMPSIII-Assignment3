@@ -33,14 +33,14 @@ class Staff(Person):
 
 # Example usage
 if __name__ == "__main__":
-    # Create Person object
+    # Create a Person
     person_1 = Person("Manny", 33, "USA")
     print(person_1)  # Manny is 33 years old and is from USA.
 
-    # Create Student object
+    # Create a Student
     student_1 = Student("Tammy", 19, "Vietnam", "Computer Science", 3.54)
     print(student_1.study())  # Tammy is studying Computer Science with a current GPA of 3.54.
 
-    # Create Staff object
+    # Create a Staff
     staff_1 = Staff("Brittney", 36, "Canada", "Neuroscientist", "Biology")
     print(staff_1.work())  # Brittney works as a Neuroscientist in the Biology department.
